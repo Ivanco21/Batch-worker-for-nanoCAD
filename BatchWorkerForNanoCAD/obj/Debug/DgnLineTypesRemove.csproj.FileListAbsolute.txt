@@ -1,0 +1,16 @@
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\bin\Debug\DgnLineTypesRemove.dll
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\bin\Debug\DgnLineTypesRemove.pdb
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.csprojResolveAssemblyReference.cache
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.csproj.ResolveComReference.cache
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.MainForm.resources
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.csproj.GenerateResource.Cache
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.dll
+Z:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.pdb
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\bin\Debug\DgnLineTypesRemove.dll
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\bin\Debug\DgnLineTypesRemove.pdb
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.csprojResolveAssemblyReference.cache
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.csproj.ResolveComReference.cache
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.MainForm.resources
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.csproj.GenerateResource.Cache
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.dll
+D:\Code_repository\C#\nanoCAD\DgnLineTypesRemove\DgnLineTypesRemove\obj\Debug\DgnLineTypesRemove.pdb
