@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DgnLineTypesRemove
+namespace BatchWorker
 {
     public partial class MainForm : Form
     {
@@ -31,7 +31,8 @@ namespace DgnLineTypesRemove
             bool res = e.setAllPathes;
             if (res == true)
             {
-                btnStart.Enabled = true;
+                btnDGNdelete.Enabled = true;
+                btnSPDSobjDestroy.Enabled = true;
                 allPath = e.allPathes;
             }
             else
@@ -44,6 +45,14 @@ namespace DgnLineTypesRemove
         {
             DgnDelete Del = new DgnDelete();
             Del.DgnDeleting(allPath);
+        }
+
+        private void btnSPDSobjDestroy_Click(object sender, EventArgs e)
+        {
+            SPDSdestroyer destroyer = new SPDSdestroyer();
+            bool isSaveDWG = cbSaveDwg.Checked;
+            destroyer.DestroySPDSobjects(allPath,isSaveDWG);
+
         }
 
     }

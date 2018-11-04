@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Linq;
 
-namespace DgnLineTypesRemove
+namespace BatchWorker
 {
     class PathManyFiles
     {

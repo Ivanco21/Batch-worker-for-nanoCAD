@@ -1,4 +1,4 @@
-﻿namespace DgnLineTypesRemove
+﻿namespace BatchWorker
 {
     partial class MainForm
     {
@@ -30,43 +30,80 @@
         {
             this.btnSelectFolder = new System.Windows.Forms.Button();
             this.fbdSelectFolder = new System.Windows.Forms.FolderBrowserDialog();
-            this.btnStart = new System.Windows.Forms.Button();
+            this.btnDGNdelete = new System.Windows.Forms.Button();
+            this.btnSPDSobjDestroy = new System.Windows.Forms.Button();
+            this.pnSPDSdestroy = new System.Windows.Forms.Panel();
+            this.cbSaveDwg = new System.Windows.Forms.CheckBox();
+            this.pnSPDSdestroy.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSelectFolder
             // 
-            this.btnSelectFolder.Location = new System.Drawing.Point(12, 12);
+            this.btnSelectFolder.Location = new System.Drawing.Point(11, 25);
             this.btnSelectFolder.Name = "btnSelectFolder";
-            this.btnSelectFolder.Size = new System.Drawing.Size(194, 23);
+            this.btnSelectFolder.Size = new System.Drawing.Size(194, 38);
             this.btnSelectFolder.TabIndex = 0;
-            this.btnSelectFolder.Text = "SelectFolder";
+            this.btnSelectFolder.Text = "Выберите папку";
             this.btnSelectFolder.UseVisualStyleBackColor = true;
             this.btnSelectFolder.Click += new System.EventHandler(this.btnSelectFolder_Click);
             // 
-            // btnStart
+            // btnDGNdelete
             // 
-            this.btnStart.Enabled = false;
-            this.btnStart.Location = new System.Drawing.Point(12, 83);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(194, 23);
-            this.btnStart.TabIndex = 1;
-            this.btnStart.Text = "Start";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            this.btnDGNdelete.Enabled = false;
+            this.btnDGNdelete.Location = new System.Drawing.Point(10, 100);
+            this.btnDGNdelete.Name = "btnDGNdelete";
+            this.btnDGNdelete.Size = new System.Drawing.Size(194, 25);
+            this.btnDGNdelete.TabIndex = 1;
+            this.btnDGNdelete.Text = "Удалить DGN стили";
+            this.btnDGNdelete.UseVisualStyleBackColor = true;
+            this.btnDGNdelete.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // btnSPDSobjDestroy
+            // 
+            this.btnSPDSobjDestroy.Enabled = false;
+            this.btnSPDSobjDestroy.Location = new System.Drawing.Point(3, 3);
+            this.btnSPDSobjDestroy.Name = "btnSPDSobjDestroy";
+            this.btnSPDSobjDestroy.Size = new System.Drawing.Size(193, 23);
+            this.btnSPDSobjDestroy.TabIndex = 2;
+            this.btnSPDSobjDestroy.Text = "Разрушить СПДС объекты";
+            this.btnSPDSobjDestroy.UseVisualStyleBackColor = true;
+            this.btnSPDSobjDestroy.Click += new System.EventHandler(this.btnSPDSobjDestroy_Click);
+            // 
+            // pnSPDSdestroy
+            // 
+            this.pnSPDSdestroy.Controls.Add(this.cbSaveDwg);
+            this.pnSPDSdestroy.Controls.Add(this.btnSPDSobjDestroy);
+            this.pnSPDSdestroy.Location = new System.Drawing.Point(8, 151);
+            this.pnSPDSdestroy.Name = "pnSPDSdestroy";
+            this.pnSPDSdestroy.Size = new System.Drawing.Size(198, 70);
+            this.pnSPDSdestroy.TabIndex = 3;
+            // 
+            // cbSaveDwg
+            // 
+            this.cbSaveDwg.AutoSize = true;
+            this.cbSaveDwg.Location = new System.Drawing.Point(4, 44);
+            this.cbSaveDwg.Name = "cbSaveDwg";
+            this.cbSaveDwg.Size = new System.Drawing.Size(176, 17);
+            this.cbSaveDwg.TabIndex = 3;
+            this.cbSaveDwg.Text = "Закрывать и сохранять DWG";
+            this.cbSaveDwg.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(218, 132);
-            this.Controls.Add(this.btnStart);
+            this.ClientSize = new System.Drawing.Size(214, 224);
+            this.Controls.Add(this.pnSPDSdestroy);
+            this.Controls.Add(this.btnDGNdelete);
             this.Controls.Add(this.btnSelectFolder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.ShowIcon = false;
-            this.Text = "email:soldatov@infoind.info";
+            this.Text = "Автор - soldatov@infoind.info";
+            this.pnSPDSdestroy.ResumeLayout(false);
+            this.pnSPDSdestroy.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -75,6 +112,9 @@
 
         private System.Windows.Forms.Button btnSelectFolder;
         private System.Windows.Forms.FolderBrowserDialog fbdSelectFolder;
-        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Button btnDGNdelete;
+        private System.Windows.Forms.Button btnSPDSobjDestroy;
+        private System.Windows.Forms.Panel pnSPDSdestroy;
+        private System.Windows.Forms.CheckBox cbSaveDwg;
     }
 }

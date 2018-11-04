@@ -13,7 +13,7 @@ using HostMgd.ApplicationServices;
 using mcObj = Multicad.DatabaseServices;
 
 
-namespace DgnLineTypesRemove
+namespace BatchWorker
 {
     class DgnDelete  
     {

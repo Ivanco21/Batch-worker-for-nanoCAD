@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-using Teigha.DatabaseServices;
 using HostMgdApp = HostMgd.ApplicationServices;
-using Teigha.Runtime;
+using Multicad.Runtime;
 
-namespace DgnLineTypesRemove
+namespace BatchWorker
 {
     public class ShowApp
     {
-        [CommandMethod("gptComplexDGNPurge")]
+        [CommandMethod("BatchWorker", CommandFlags.NoCheck | CommandFlags.NoPrefix)]
         public void StartMainApp()
         {
             MainForm MainForm = new MainForm();
