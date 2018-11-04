@@ -1,4 +1,4 @@
-# BatchWorkerForNanoCAD
+# Batch worker for nanoCAD
 batch processing of .dwg files in nanoCAD 
 
 1. Select folder
