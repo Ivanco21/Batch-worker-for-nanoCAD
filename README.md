@@ -1,6 +1,7 @@
 # Batch worker for nanoCAD
-batch processing of .dwg files in nanoCAD 
-use command "BatchWorker" for start work
+batch processing of .dwg files in nanoCAD
+
+Use command "BatchWorker" for start work
 
 1. Select folder
 2. Select move 
